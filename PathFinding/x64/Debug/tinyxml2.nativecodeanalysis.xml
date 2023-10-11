@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VSProject\PathFinding\PathFinding\</FILEPATH>
+      <FILENAME>tinyxml2.cpp</FILENAME>
+      <LINE>359</LINE>
+      <COLUMN>55</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>tinyxml2::StrPair::GetStr</FUNCTION>
+    <DECORATED>?GetStr@StrPair@tinyxml2@@QEAAPEBDXZ</DECORATED>
+    <FUNCLINE>290</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VSProject\PathFinding\PathFinding\</FILEPATH>
+      <FILENAME>tinyxml2.cpp</FILENAME>
+      <LINE>2600</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>tinyxml2::XMLPrinter::Print</FUNCTION>
+    <DECORATED>?Print@XMLPrinter@tinyxml2@@MEAAXPEBDZZ</DECORATED>
+    <FUNCLINE>2584</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VSProject\PathFinding\PathFinding\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>210</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 tinyxml2::DynArray&lt;char,20&gt;::_pool。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>tinyxml2::DynArray&lt;char,20&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$DynArray@D$0BE@@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>210</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>tinyxml2::DynArray&lt;char,20&gt;::_pool</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VSProject\PathFinding\PathFinding\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>210</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 tinyxml2::DynArray&lt;char const *,10&gt;::_pool。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>tinyxml2::DynArray&lt;char const *,10&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$DynArray@PEBD$09@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>210</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>tinyxml2::DynArray&lt;char const *,10&gt;::_pool</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VSProject\PathFinding\PathFinding\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>210</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 tinyxml2::DynArray&lt;tinyxml2::XMLNode *,10&gt;::_pool。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>tinyxml2::DynArray&lt;tinyxml2::XMLNode *,10&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$DynArray@PEAVXMLNode@tinyxml2@@$09@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>210</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>tinyxml2::DynArray&lt;tinyxml2::XMLNode *,10&gt;::_pool</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VSProject\PathFinding\PathFinding\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>210</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;104&gt;::Block *,10&gt;::_pool。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;104&gt;::Block *,10&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$DynArray@PEAUBlock@?$MemPoolT@$0GI@@tinyxml2@@$09@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>210</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;104&gt;::Block *,10&gt;::_pool</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VSProject\PathFinding\PathFinding\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>210</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;112&gt;::Block *,10&gt;::_pool。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;112&gt;::Block *,10&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$DynArray@PEAUBlock@?$MemPoolT@$0HA@@tinyxml2@@$09@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>210</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;112&gt;::Block *,10&gt;::_pool</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VSProject\PathFinding\PathFinding\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>210</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;80&gt;::Block *,10&gt;::_pool。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;80&gt;::Block *,10&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$DynArray@PEAUBlock@?$MemPoolT@$0FA@@tinyxml2@@$09@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>210</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;80&gt;::Block *,10&gt;::_pool</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VSProject\PathFinding\PathFinding\</FILEPATH>
+      <FILENAME>tinyxml2.h</FILENAME>
+      <LINE>210</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;120&gt;::Block *,10&gt;::_pool。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;120&gt;::Block *,10&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$DynArray@PEAUBlock@?$MemPoolT@$0HI@@tinyxml2@@$09@tinyxml2@@QEAA@XZ</DECORATED>
+    <FUNCLINE>210</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>tinyxml2::DynArray&lt;tinyxml2::MemPoolT&lt;120&gt;::Block *,10&gt;::_pool</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,6 @@
+﻿  Graph.cpp
+D:\VSProject\PathFinding\PathFinding\Graph.cpp(74,32): warning C4101: “toCatch”: 未引用的局部变量
+D:\VSProject\PathFinding\PathFinding\Graph.cpp(585,28): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  PathFinding.cpp
+  正在生成代码...
+  PathFinding.vcxproj -> D:\VSProject\PathFinding\x64\Debug\PathFinding.exe

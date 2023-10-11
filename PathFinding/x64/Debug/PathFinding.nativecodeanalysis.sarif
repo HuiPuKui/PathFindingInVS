@@ -1,0 +1,113 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VSProject/PathFinding/PathFinding/PathFinding.cpp"
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 38,
+                  "endLine": 20,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32824.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/VSProject/PathFinding/PathFinding/PathFinding.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "3a92170521c6424f57f5281224d7e67f23a8208873482cd01c0b1b5fcaf95008"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vsproject/pathfinding/pathfinding/graph.h"
+          },
+          "hashes": {
+            "sha-256": "05d3f2c28010cdc81a990851610e40c570e184922dab72b8886c35f895fd4310"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vsproject/pathfinding/pathfinding/segment.h"
+          },
+          "hashes": {
+            "sha-256": "41563cfad2a32019b48274e3ee0f2d876a989ef11eda6f4a33b885d254076d32"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vsproject/pathfinding/pathfinding/node.h"
+          },
+          "hashes": {
+            "sha-256": "8d436f5e8b9758af77b474a1175348be90d5703cf514d98943c29cb2b12556b1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vsproject/pathfinding/pathfinding/block.h"
+          },
+          "hashes": {
+            "sha-256": "42f8cfba3647fd93d95edaab852b2c15b066a3df8552cdc025c72b12b12c6c6d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vsproject/pathfinding/pathfinding/bridge.h"
+          },
+          "hashes": {
+            "sha-256": "929290011ee380feca88985158297dfb3996479ac811276305c8dd9ef4f9dcd2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vsproject/pathfinding/pathfinding/tinyxml2.h"
+          },
+          "hashes": {
+            "sha-256": "60f6525298e79563d4387cc08d366726b7da5dea094bd9084839549cd752f5a2"
+          }
+        }
+      ]
+    }
+  ]
+}

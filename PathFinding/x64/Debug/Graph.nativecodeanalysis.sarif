@@ -1,0 +1,559 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VSProject/PathFinding/PathFinding/Graph.cpp"
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CGraph::{ctor}",
+                  "decoratedName": "??0CGraph@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VSProject/PathFinding/PathFinding/Graph.cpp"
+                },
+                "region": {
+                  "startLine": 208,
+                  "startColumn": 41,
+                  "endLine": 208,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CGraph::ParsingFileCalledMakeBlock",
+                  "decoratedName": "?ParsingFileCalledMakeBlock@CGraph@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VSProject/PathFinding/PathFinding/Graph.cpp"
+                },
+                "region": {
+                  "startLine": 212,
+                  "startColumn": 125,
+                  "endLine": 212,
+                  "endColumn": 153
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CGraph::ParsingFileCalledMakeBlock",
+                  "decoratedName": "?ParsingFileCalledMakeBlock@CGraph@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VSProject/PathFinding/PathFinding/Graph.cpp"
+                },
+                "region": {
+                  "startLine": 213,
+                  "startColumn": 125,
+                  "endLine": 213,
+                  "endColumn": 153
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CGraph::ParsingFileCalledMakeBlock",
+                  "decoratedName": "?ParsingFileCalledMakeBlock@CGraph@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VSProject/PathFinding/PathFinding/Graph.cpp"
+                },
+                "region": {
+                  "startLine": 523,
+                  "startColumn": 84,
+                  "endLine": 523,
+                  "endColumn": 96
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CGraph::AStarForBlock",
+                  "decoratedName": "?AStarForBlock@CGraph@@AEAA?AVCNode@@V2@0HHHAEAV?$vector@NV?$allocator@N@std@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VSProject/PathFinding/PathFinding/Graph.cpp"
+                },
+                "region": {
+                  "startLine": 540,
+                  "startColumn": 58,
+                  "endLine": 540,
+                  "endColumn": 71
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CGraph::AStarForBlock",
+                  "decoratedName": "?AStarForBlock@CGraph@@AEAA?AVCNode@@V2@0HHHAEAV?$vector@NV?$allocator@N@std@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VSProject/PathFinding/PathFinding/Graph.cpp"
+                },
+                "region": {
+                  "startLine": 561,
+                  "startColumn": 29,
+                  "endLine": 561,
+                  "endColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CGraph::AStarForBlock",
+                  "decoratedName": "?AStarForBlock@CGraph@@AEAA?AVCNode@@V2@0HHHAEAV?$vector@NV?$allocator@N@std@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VSProject/PathFinding/PathFinding/Graph.cpp"
+                },
+                "region": {
+                  "startLine": 570,
+                  "startColumn": 19,
+                  "endLine": 570,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CGraph::AStarForBlock",
+                  "decoratedName": "?AStarForBlock@CGraph@@AEAA?AVCNode@@V2@0HHHAEAV?$vector@NV?$allocator@N@std@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VSProject/PathFinding/PathFinding/Graph.cpp"
+                },
+                "region": {
+                  "startLine": 572,
+                  "startColumn": 30,
+                  "endLine": 572,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CGraph::AStarForBlock",
+                  "decoratedName": "?AStarForBlock@CGraph@@AEAA?AVCNode@@V2@0HHHAEAV?$vector@NV?$allocator@N@std@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VSProject/PathFinding/PathFinding/Graph.cpp"
+                },
+                "region": {
+                  "startLine": 574,
+                  "startColumn": 23,
+                  "endLine": 574,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CGraph::AStarForBlock",
+                  "decoratedName": "?AStarForBlock@CGraph@@AEAA?AVCNode@@V2@0HHHAEAV?$vector@NV?$allocator@N@std@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VSProject/PathFinding/PathFinding/Graph.cpp"
+                },
+                "region": {
+                  "startLine": 578,
+                  "startColumn": 66,
+                  "endLine": 578,
+                  "endColumn": 73
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CGraph::AStarForBlock",
+                  "decoratedName": "?AStarForBlock@CGraph@@AEAA?AVCNode@@V2@0HHHAEAV?$vector@NV?$allocator@N@std@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VSProject/PathFinding/PathFinding/Graph.cpp"
+                },
+                "region": {
+                  "startLine": 648,
+                  "startColumn": 34,
+                  "endLine": 648,
+                  "endColumn": 56
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CGraph::AStarForGraph",
+                  "decoratedName": "?AStarForGraph@CGraph@@QEAA?AV?$vector@NV?$allocator@N@std@@@std@@HHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VSProject/PathFinding/PathFinding/Graph.cpp"
+                },
+                "region": {
+                  "startLine": 710,
+                  "startColumn": 13,
+                  "endLine": 710,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CGraph::AStarForGraph",
+                  "decoratedName": "?AStarForGraph@CGraph@@QEAA?AV?$vector@NV?$allocator@N@std@@@std@@HHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VSProject/PathFinding/PathFinding/Graph.cpp"
+                },
+                "region": {
+                  "startLine": 713,
+                  "startColumn": 35,
+                  "endLine": 713,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CGraph::AStarForGraph",
+                  "decoratedName": "?AStarForGraph@CGraph@@QEAA?AV?$vector@NV?$allocator@N@std@@@std@@HHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VSProject/PathFinding/PathFinding/Graph.cpp"
+                },
+                "region": {
+                  "startLine": 714,
+                  "startColumn": 35,
+                  "endLine": 714,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CGraph::AStarForGraph",
+                  "decoratedName": "?AStarForGraph@CGraph@@QEAA?AV?$vector@NV?$allocator@N@std@@@std@@HHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VSProject/PathFinding/PathFinding/Graph.cpp"
+                },
+                "region": {
+                  "startLine": 715,
+                  "startColumn": 37,
+                  "endLine": 715,
+                  "endColumn": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CGraph::AStarForGraph",
+                  "decoratedName": "?AStarForGraph@CGraph@@QEAA?AV?$vector@NV?$allocator@N@std@@@std@@HHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VSProject/PathFinding/PathFinding/Graph.cpp"
+                },
+                "region": {
+                  "startLine": 748,
+                  "startColumn": 56,
+                  "endLine": 748,
+                  "endColumn": 60
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CGraph::AStarForGraph",
+                  "decoratedName": "?AStarForGraph@CGraph@@QEAA?AV?$vector@NV?$allocator@N@std@@@std@@HHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32824.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/VSProject/PathFinding/PathFinding/Graph.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "a81fceba3fbc450a985aa61f487c7a4219438ef673f99d23c5065f1b58e79970"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vsproject/pathfinding/pathfinding/graph.h"
+          },
+          "hashes": {
+            "sha-256": "05d3f2c28010cdc81a990851610e40c570e184922dab72b8886c35f895fd4310"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vsproject/pathfinding/pathfinding/segment.h"
+          },
+          "hashes": {
+            "sha-256": "41563cfad2a32019b48274e3ee0f2d876a989ef11eda6f4a33b885d254076d32"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vsproject/pathfinding/pathfinding/node.h"
+          },
+          "hashes": {
+            "sha-256": "8d436f5e8b9758af77b474a1175348be90d5703cf514d98943c29cb2b12556b1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vsproject/pathfinding/pathfinding/block.h"
+          },
+          "hashes": {
+            "sha-256": "42f8cfba3647fd93d95edaab852b2c15b066a3df8552cdc025c72b12b12c6c6d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vsproject/pathfinding/pathfinding/bridge.h"
+          },
+          "hashes": {
+            "sha-256": "929290011ee380feca88985158297dfb3996479ac811276305c8dd9ef4f9dcd2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vsproject/pathfinding/pathfinding/tinyxml2.h"
+          },
+          "hashes": {
+            "sha-256": "60f6525298e79563d4387cc08d366726b7da5dea094bd9084839549cd752f5a2"
+          }
+        }
+      ]
+    }
+  ]
+}
